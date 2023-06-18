@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Caption Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}" />
+  </head>
+  <body>
+    <div class="main">
+    <form method=post enctype=multipart/form-data>
+      <fieldset>
+    <label> <h1>Upload Image for Captions</h1> <input type=file name=image> </label>
+      <input type=submit value=Upload>
+    </form>
+    {% if caption %}
+      <h2>Generated Caption</h2>
+      <ol>
+        <li><p>{{ caption[0] }}</p></li>
+        <li><p>{{ caption[1] }}</p></li>
+        <li><p>{{ caption[2] }}</p></li>
+      </ol>
+    {% endif %}
+      </fieldset>
+    </div>
+  </body>
+</html>
