@@ -10,6 +10,3 @@ The appication has been build on a pre-trained model [**'blip-image-captioning-l
 ### Further Developments
 * The application can make three captions for the input. The accuracy of the caption prediction can be further developed by fine-tuning the model.
 * The creativity of captions can be implemented by giving some input text along with the model so that it can create captions related to the text. This feature is best implemented after fine-tuning the model.
-
-### Thank You
-I would like to thank the Listed Recruitment Team for giving me the chance to join the company by giving me an assignment. The assignment was challenging and very fun to do. I also appreciate your time spent going through my assignment work for technical assessment. 
