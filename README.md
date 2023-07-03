@@ -2,7 +2,7 @@
 
 This is an AI tool that create multiple captions based on the image provided by the user.
 The tool has interface built on Flask-HTML for uploading images and generating captions.
-The video of the assignment working is given in this github. The [LINK](https://drive.google.com/file/d/10w1IvtuOZPAkwglPGvIOLRGTcDTX4F9V/view?usp=drive_link) for the explantation video.
+The video of the assignment working is given in this github.
 
 ### Model Information
 The appication has been build on a pre-trained model [**'blip-image-captioning-large**](https://huggingface.co/Salesforce/blip-image-captioning-large) - (BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation)' from huggingface website.
