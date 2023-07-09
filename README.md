@@ -5,7 +5,7 @@ The tool has interface built on Flask-HTML for uploading images and generating c
 The video of the assignment working is given in this github.
 
 ### Model Information
-The appication has been build on a pre-trained model [**'blip-image-captioning-large**](https://huggingface.co/Salesforce/blip-image-captioning-large) - (BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation)' from huggingface website.
+The application has been build on a pre-trained model [**'blip-image-captioning-large**](https://huggingface.co/Salesforce/blip-image-captioning-large) - (BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation)' from huggingface website.
 
 ### Further Developments
 * The application can make three captions for the input. The accuracy of the caption prediction can be further developed by fine-tuning the model.
